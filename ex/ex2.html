@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+		<button class="btn_test" value="1" onclick="GetBtnValue(this.value)">1</button>
+		<button class="btn_test" value="2" onclick="GetBtnValue(this.value)">2</button>
+		<button class="btn_test" value="3" onclick="GetBtnValue(this.value)">3</button>
+		<button class="btn_test" value="4" onclick="GetBtnValue(this.value)">4</button>
+		<button class="btn_test" value="5" onclick="GetBtnValue(this.value)">5</button>
+		<button class="btn_test" value="6" onclick="GetBtnValue(this.value)">6</button>
+		<button class="btn_test" value="7" onclick="GetBtnValue(this.value)">7</button>
+		<button class="btn_test" value="8" onclick="GetBtnValue(this.value)">8</button>
+		<button class="btn_test" value="9" onclick="GetBtnValue(this.value)">9</button>
+	
+        <div>
+            <p id="gugudanHead"></p>
+            <p id="_Data"></p>
+        </div>
+
+        <script>
+            var _xx;
+            var _gugudan = document.getElementById("_Data");
+            var _gugudanhead = document.getElementById("gugudanHead");
+            function GetBtnValue(GetValue){
+                _gugudanhead.innerText = "";  // 초기화  선택 단을 초기화 하지 않으면 계속 쌓임
+                _gugudan.innerText = "";
+                _gugudanhead.innerText = GetValue + "단"
+                for (var i = 1; i < 10; i++) {
+                _gugudan.innerText += GetValue + " X " + i + " = " + GetValue * i + "\n"; 
+                }
+            }
+            
+   
+        </script>
+</body>
+</html>

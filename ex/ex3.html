@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <button class="btn_test" value="1" onclick="GetBtnValue(this.value)">1</button>
+		<button class="btn_test" value="2" onclick="GetBtnValue(this.value)">2</button>
+		<button class="btn_test" value="3" onclick="GetBtnValue(this.value)">3</button>
+		<button class="btn_test" value="4" onclick="GetBtnValue(this.value)">4</button>
+		<button class="btn_test" value="5" onclick="GetBtnValue(this.value)">5</button>
+		<button class="btn_test" value="6" onclick="GetBtnValue(this.value)">6</button>
+		<button class="btn_test" value="7" onclick="GetBtnValue(this.value)">7</button>
+		<button class="btn_test" value="8" onclick="GetBtnValue(this.value)">8</button>
+		<button class="btn_test" value="9" onclick="GetBtnValue(this.value)">9</button>
+		<button class="btn_test" value="10" onclick="GetBtnValue(this.value)">10</button>
+		<button class="btn_test" value="11" onclick="GetBtnValue(this.value)">11</button>
+		<button class="btn_test" value="12" onclick="GetBtnValue(this.value)">12</button>
+
+    <div>
+        <p id="_Data"></p>
+    </div>
+
+
+        <script>
+
+            var _moon = document.getElementById("_Data");
+           
+            
+            function GetBtnValue(GetValue){
+
+            var x = GetValue;
+                
+                
+                _moon.innerText = "";
+
+              
+             /*
+                _moon.innerText += document.querySelector(".btn_test").innerText + "월의 마지막은" + x;
+             */
+
+                   switch(x){
+                    case '1':{
+                       _moon.innerText += x + "월 은 31일 까지입니다." 
+                       break;
+                    }
+                    case '2':{
+                        _moon.innerText += x + "월 은 28일 까지입니다." 
+                        break;
+                    }
+                    case '3':{
+                        _moon.innerText += x + "월 은 31일 까지입니다." 
+                        break;
+                    }
+                    case '4':{
+                        _moon.innerText += x + "월 은 30일 까지입니다." 
+                        break;
+                    }
+                    case '5':{
+                        _moon.innerText += x + "월 은 31일 까지입니다." 
+                        break;
+                    }
+                    case '6':{
+                        _moon.innerText += x + "월 은 30일 까지입니다." 
+                        break;
+                    }
+                    case '7':{
+                        _moon.innerText += x + "월 은 31일 까지입니다." 
+                        break;
+                    }
+                    case '8':{
+                        _moon.innerText += x + "월 은 31일 까지입니다." 
+                        break;
+                    }
+                    case '9':{
+                        _moon.innerText += x + "월 은 30일 까지입니다." 
+                        break;
+                    }
+                    case '10':{
+                        _moon.innerText += x + "월 은 31일 까지입니다." 
+                        break;
+                    }
+                    case '11':{
+                        _moon.innerText += x + "월 은 30일 까지입니다." 
+                        break;
+                    }
+                    case '12':{
+                        _moon.innerText += x + "월 은 31일 까지입니다." 
+                         break;
+                    }
+                }
+            }
+        </script>
+</body>
+</html>

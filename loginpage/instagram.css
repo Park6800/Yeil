@@ -1,0 +1,96 @@
+.main{
+    width: 350px;
+    border: 1px solid black;
+    margin: 0 auto;
+    height: 580px;
+}
+.logo{
+    width: 175px;
+    height: 51px;
+    display: block;
+    margin: 40px auto 20px;
+}
+.freand{
+    font-size: 17px;
+    color: #8e8e8e;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0 40px 10px;
+}
+.facebook_btn{
+    width: 268px;
+    display: block;
+    margin: auto;
+    background: #0095f6;
+    
+    border-radius: 10px;
+}
+.f_btn{
+    width: 236px;
+    height: 34px;
+    border: 0px;
+    display: block;
+    margin: auto;
+    background: #0095f6;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+}
+.middle{
+    width: 268px;
+    display: flex;
+    margin: 10px auto;
+}
+.A{
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 1px;
+    background: #000;
+    margin: 10px auto;
+}
+.in{
+    width: 268px;
+    display: block;
+    margin: auto;
+}
+.in_for{
+    width: 248px;
+    padding: 8px;
+    margin-top: 10px;
+    background: #fafafa;
+    border: 1px;
+}
+.box{
+    width: 268px;
+    display: block;
+    margin: 20px auto;
+    font-size: 13px;
+    text-align: center;
+}
+.sub{
+    width: 268px;
+    margin: 0 auto;
+}
+.reg{
+    background: #0095f6;
+    border: 0px;
+    border-radius: 5px;
+    width: 268px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.container{
+    width: 350px;
+    border: 1px solid black;
+    margin: 20px auto;
+    height: 70px;
+}
+.a_tag{
+    padding: 10px;
+    text-align: center;
+}

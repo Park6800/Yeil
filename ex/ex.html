@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript Array</title>
+
+</head>
+
+<body onload="OnlodadPage()">
+	<select id="select_value" onchange="ChangeValue()">
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+	</select>
+
+	<div>
+		<p id="gugudanHead"></p>
+		<p id="_Data"></p>
+	</div>
+	<script>
+		function ChangeValue(select_value) {
+			var x = document.getElementById("select_value").value;
+			document.getElementById("gugudanHead").innerHTML = x + "단";
+			for (var i = 1; i <= 9; i++) {
+				document.getElementById("_Data").innerHTML += x + "x" + i + "=" + x * i + "</br>";
+			}
+		}
+	</script>
+
+</body>
+
+</html>
+
+<!--
+	<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Display</title>
+
+</head>
+
+<body onload="OnloadPage()">  // 바디 태그가 구성될때 온로드 이벤트가 발생
+  <select id="select_value" onchange="ChangeValue()" > // 값이 바뀔때마다 온 체인지 이벤트가 발생
+    <option value="2">2</option> // 셀렉트 태그 값을 바꿀 수 있는 체크 박스
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+  </select>
+  <div>
+    <p id="gugudanHead"></p>
+    <p id="_Data"></p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <script>
+    var _xx;
+
+    var _gugudan = document.getElementById("_Data");
+    var _gugudanhead = document.getElementById("gugudanHead");
+
+    function OnloadPage()
+    {
+      ChangeValue();
+    }
+
+
+    function ChangeValue() {
+      var _value = document.getElementById('select_value');
+      _xx = _value.options[_value.selectedIndex].value; // 내가 선택한 선택지의 값을 가져오겟다 . [_value.selectedIndex] (내가 선택한 선택지)
+      console.log(_xx);
+      ShowGuGudan();
+    }
+
+    function ShowGuGudan() {
+      _gugudanhead.innerText = "";  // 초기화  선택 단을 초기화 하지 않으면 계속 쌓임
+      _gugudan.innerText = "";
+      _gugudanhead.innerText = _xx + "단"
+      for (var i = 1; i < 10; i++) {
+        _gugudan.innerText += _xx + " X " + i + " = " + _xx * i + "\n";  +=으로 같은 단 곱셈을 계속 쌓
+      }
+
+    }
+
+  </script>
+
+</body>
+
+</html>
+-->

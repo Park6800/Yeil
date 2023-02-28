@@ -1,0 +1,71 @@
+body{
+    height: 800px
+}
+.main{
+    width: 540px;
+    margin: 10px auto;
+    margin-top: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+.in_1, .in_2{
+    width: 240px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    background: #f5f6f7;
+}
+.p_e, .n_pw{
+    width: 510px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    background: #f5f6f7;
+}
+
+.s_1, .s_2, .s_3{
+    width: 155px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #f5f6f7;
+}
+
+.sex{
+    margin-top: 20px;
+}
+
+.woman, .man, .no{
+    float: left;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: space-between;
+    display: flex;
+    font-size: 18px;
+    margin: 8px;
+    padding: 10px;
+}
+.woman, .man {
+    width: 120px;
+}
+.no{
+    width: 180px;
+}
+.more_information{
+    font-size: 13px;
+}
+.sub{
+    width: 500px;
+    margin: 0 auto;
+}
+.reg{
+    background: green;
+    border: 0px;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    margin: 20px 175px 0 175px;
+}

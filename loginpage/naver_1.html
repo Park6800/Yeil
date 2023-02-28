@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="naver_01.css">
+<body>
+    <form>
+        <fieldset>
+            <nav>
+                <div class="frist">
+                    <div class="second">
+                        <img src="./images/Naver.png" class="logo">
+
+                        <!-- 아이디 -->
+                        <div class="re_id">아이디</div>
+                        <input type="text" placeholder="@nave.com" class="in_id">
+
+                        <!-- 비밀번호 -->
+                        <div class="re_pw">비밀번호</div>
+                        <input type="text" placeholder="8자 이상의 한개 이상의 특수문자와 영문자를 결합한 비밀번호를 입력하세요" class="in_pw">
+
+                        <!-- 비밀번호 재확인 -->
+                        <div class="re_pw2">비밀번호 재확인</div>
+                        <input type="text" placeholder="8자 이상의 한개 이상의 특수문자와 영문자를 결합한 비밀번호를 입력하세요" class="in_pw">
+
+                        <!-- 이름 -->
+                        <div class="in_Name">이름</div>
+                        <input type="text" placeholder="성 과 이름을 입력하세요" class="in_name">
+                        
+                        <!-- 생년월일 -->
+                        <div class="in_Year">생년 월일</div>
+                        <input type="text" placeholder="년(4자)" class="year">
+                        <select class="month">
+                            <option value="0">월</option>
+                            <option value="1">1 월</option>
+                            <option value="2">2 월</option>
+                            <option value="3">3 월</option>
+                            <option value="4">4 월</option>
+                            <option value="5">5 월</option>
+                            <option value="6">6 월</option>
+                            <option value="7">7 월</option>
+                            <option value="8">8 월</option>
+                            <option value="9">9 월</option>
+                            <option value="10">10 월</option>
+                            <option value="11">11 월</option>
+                            <option value="12">12 월</option>
+                        </select>
+                        <input placeholder="일" class="day">
+                        
+                        <!--  휴 대 전 화 -->
+                        <div class="call_num">휴대 전화</div>
+                        <select class="contury">
+                            <option value="">대한민국 + 82</option>
+                            <option value="">좆본 </option>
+                            <option value="">착짱 </option>
+                            <option value="">죽짱 </option>
+                        </select>
+                        <input type="tel" class="phone" placeholder="전화 번호를 입력하세요" maxlength="11"> <input type="button" value="인증 번호 전송" class="submit_btn1">
+                        <input type="text" pattern="[0-9]+" class="certified_number" placeholder="숫자 인증번호만 입력하세요.">
+
+
+                        <!-- 성 별 --> 
+                        <div class="sex">성별</div>
+                        <select class="s_sex">
+                            <option value="성별">성별을 선택하세요</option>
+                            <option value="남">남성</option>
+                            <option value="여">여성</option>
+                        </select>
+
+                        <!-- 가입 버튼 -->
+                        <div class="Submit_register">
+                            <input type="submit" value="가 입 하 기" class="submit_btn2" >
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </fieldset>
+    </form>
+</body>
+</html>

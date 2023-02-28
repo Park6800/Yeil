@@ -1,0 +1,75 @@
+nav{
+    width: 800px;
+    display: block;
+    margin: auto;
+}
+.logo{
+    margin: auto;
+    padding: 10px;
+}
+.frist{
+    padding: 0 100px;
+    margin: 30px;
+}
+.second{
+    padding: 0 50px;
+}
+.in_id{
+    width: 400px;
+    padding: 10px;
+}
+.in_pw , .in_name{
+    width: 400px;
+    padding: 10px;
+}
+.in_Name{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.re_id, .re_pw, .re_pw2 , .in_Year ,.call_num , .sex{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.in_id::-webkit-input-placeholder{
+    text-align: right;
+}
+.in_pw::-webkit-input-placeholder{
+    text-align: right;
+}
+.in_naem::-webkit-input-placeholder{
+    text-align: right;
+}
+.year, .month, .day{
+    width: 28%;
+    padding: 10px;
+}
+.submit_btn ,.phone{
+    padding : 10px;
+}
+.contury , .submit_btn2, .s_sex {
+    padding: 10px;
+    width: 98%;
+    margin-bottom: 10px;
+}
+.phone{
+    width: 66%;
+}
+.submit_btn1 {
+    background: #2DB400;
+    border: 0px;
+    border-radius: 3px;
+    width: 25%;
+    padding: 10px;
+}
+.submit_btn2 {
+    margin-top: 10px;
+    background: #2DB400;
+    border: 0px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.certified_number{
+    width: 93%;
+    margin-top: 10px;
+    padding: 10px;
+}

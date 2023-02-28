@@ -1,0 +1,66 @@
+header{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+.frist{
+    padding: 0 100px;
+    margin: 30px;
+}
+.all{
+    padding: 25px;
+}
+h1{
+    text-align: center;
+}
+.input_art{
+    width: 550px;
+    border: 0px;
+    height: 40px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.title{
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 3px;
+}
+.art{
+    margin-top: 50px;
+}
+.img1{
+    border: 1px solid #8888;
+    padding: 10px auto;
+}
+.img2, .img3{
+    border: 1px solid #8888;
+}
+.contry{
+    width: 550px;
+    height: 40px;
+    padding: 10px;
+    border: 0px;
+}
+.coll, .coll2{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-bottom: 20px;
+
+}
+.number, .number2{
+    float: left;
+    width: 400px;
+    border: 0px;
+}
+
+.submit{
+    margin-top: 100px;
+}
+.btn{
+    width: 580px;
+    height: 50px;
+    border: 0px;
+}
